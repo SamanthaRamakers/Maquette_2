@@ -1,5 +1,13 @@
+.coucou {
+  color: red;
+}
+
+.aurevoir {
+  color: blue;
+}
+
 body {
-  background-color: red;
+  background-color: #33264E;
 }
 
 /*# sourceMappingURL=main.css.map */
