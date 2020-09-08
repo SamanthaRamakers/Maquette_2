@@ -1,9 +1,37 @@
-.coucou {
-  color: red;
+.body {
+  color: #33264E;
 }
 
-.aurevoir {
-  color: blue;
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logos {
+  width: 20px;
+}
+
+.searchtool {
+  width: 20px;
+}
+
+.title {
+  display: flex;
+  justify-items: center;
+}
+
+.footercontent {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  bottom: 50px;
+}
+
+.icon {
+  width: 20px;
 }
 
 body {

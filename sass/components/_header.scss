@@ -1,3 +1,17 @@
-.coucou{
-color: red;
+.body{
+color: #33264E;
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.logos{
+  width: 20px;
+}
+.searchtool{
+  width: 20px;
+}
+.title{
+  display: flex;
+  justify-items: center;
 }
