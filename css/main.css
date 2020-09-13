@@ -21,13 +21,25 @@
   align-content: space-between;
 }
 .icons a {
-  width: 25px;
   color: white;
   background-color: pink;
+  margin: 3px;
+  padding-left: 8px;
+  padding-top: 7px;
+  height: 20px;
+  width: 24px;
+  border-radius: 20px;
+  padding-bottom: 5px;
+}
+
+.fa fa-facebook {
+  padding-left: 60px;
 }
 
 .searchtool {
   width: 20px;
+  padding-left: 200px;
+  padding-top: 31px;
 }
 
 .title {
@@ -35,7 +47,7 @@
   justify-items: center;
   color: white;
   font-family: "vampiro one";
-  padding-left: 50px;
+  padding-left: 90px;
   font-size: 60px;
 }
 
@@ -52,6 +64,7 @@
   text-decoration: none;
   color: white;
   margin: 0 0 0 8px;
+  font-family: "mulish";
 }
 .sections a:last-child {
   margin-right: 8px;
@@ -85,6 +98,7 @@ h2 {
   justify-content: center;
   margin-top: -300px;
   color: white;
+  font-family: "Playfair Display";
 }
 
 .line {
@@ -119,27 +133,33 @@ h2 {
 }
 
 .footercontent {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align: center;
   bottom: 50px;
+  clear: both;
 }
 
 .footer {
   margin: auto;
   width: 1200px;
+  clear: both;
 }
 
 .icon {
-  width: 20px;
   display: flex;
   padding-top: 13px;
   padding-left: 5px;
   bottom: 0;
   right: 0;
+}
+.icon img {
+  width: 20px;
+}
+.icon p {
+  padding: top 8px;
 }
 
 .linefinal {
@@ -152,10 +172,141 @@ h2 {
 
 .backtop {
   display: flex;
-  position: absolute;
   bottom: 0;
   right: 0;
   padding-right: 8px;
+  float: right;
+}
+.backtop p {
+  padding-top: 21px;
+}
+.backtop img {
+  width: 20px;
+  padding-top: 14px;
+  height: 20px;
+  padding-top: 35px;
+  padding-left: 6px;
+}
+
+.banner {
+  width: auto;
+  height: 20px;
+  color: #362953;
+}
+
+.footergrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h3 {
+  padding-right: 138px;
+  margin-bottom: -10px;
+}
+
+.newsletter {
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 150px;
+}
+
+.lineblock {
+  margin: 25px;
+  padding-left: 50px;
+  width: 80px;
+  height: 2px;
+  background-color: red;
+  float: right;
+  margin-top: -5px;
+}
+
+.lineb {
+  margin: 25px;
+  margin-top: -5px;
+  width: 80px;
+  height: 2px;
+  background-color: red;
+  float: right;
+  display: flex;
+  bottom: 0;
+  right: 0;
+  padding-right: 8px;
+  float: right;
+  display: flex;
+}
+
+.sidebar {
+  float: right;
+  padding-top: 150px;
+}
+
+.linesb {
+  margin: 25px;
+  margin-top: 30px;
+  padding-left: 50px;
+  width: 80px;
+  height: 2px;
+  background-color: red;
+}
+
+.pictureb {
+  display: grid;
+  grid-area: 1/2;
+}
+
+img {
+  object-fit: cover;
+}
+
+.firstimg {
+  display: block;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.textb {
+  display: grid;
+  grid-area: 1/2;
+}
+
+.picturec {
+  display: grid;
+  grid-area: 2/1;
+  width: 150px;
+  height: 150px;
+}
+
+.linec {
+  margin: 25px;
+  margin-top: 30px;
+  padding-left: 50px;
+  width: 80px;
+  height: 2px;
+  background-color: red;
+}
+
+h4 {
+  display: grid;
+  grid-area: 1/2;
+}
+
+.scimg {
+  display: grid;
+  width: 150px;
+  height: 150px;
+  grid-area: 2/1;
+  object-fit: cover;
+}
+
+.thimg {
+  display: grid;
+  width: 150px;
+  height: 150px;
+  grid-area: 3/1;
+  object-fit: cover;
 }
 
 .banner {

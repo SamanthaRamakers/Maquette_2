@@ -16,20 +16,31 @@ color: #33264E;
   align-items: center;
   align-content: space-between;
   a{
-    width: 25px;
     color: white;
     background-color: pink;
+    margin: 3px;
+    padding-left: 8px;
+    padding-top: 7px;
+    height: 20px;
+    width: 24px;
+    border-radius: 20px;
+    padding-bottom:5px ;
   }
+}
+.fa fa-facebook{
+  padding-left:60px;
 }
 .searchtool{
   width: 20px;
+  padding-left: 200px;
+  padding-top: 31px;
 }
 .title{
   display: flex;
   justify-items: center;
   color: white;
   font-family: "vampiro one";
-  padding-left: 50px;
+  padding-left: 90px;
   font-size: 60px;
 }
 .sections{
@@ -44,6 +55,7 @@ color: #33264E;
     text-decoration: none;
     color: white;
     margin: 0 0 0 8px;
+    font-family: "mulish";
   }
   a:last-child{
     margin-right: 8px;
@@ -76,6 +88,8 @@ h2{
     justify-content: center;
     margin-top: -300px;
     color: white;
+    font-family: "Playfair Display";
+
 }
 .line{
   width: 90%;
@@ -105,6 +119,10 @@ h2{
     justify-content: center;
 }
     }
+
+
+
+
 
 
 
