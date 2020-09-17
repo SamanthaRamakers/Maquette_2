@@ -1,0 +1,114 @@
+.picture {
+  width: 2000px;
+  height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.picture #picture {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 1600px;
+  height: 480px;
+  margin-right: 150px;
+  margin-left: 100px;
+}
+
+.johndoe {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.picture h2 {
+  padding-left: 50px;
+  padding-top: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: "Playfair Display";
+}
+
+.jd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.jd .triangle {
+  width: 10px;
+  background-color: pink;
+  border-radius: 100%;
+  height: 10px;
+}
+
+.buttoncontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  right: -18px;
+  top: 20px;
+}
+
+.buttoncontainer #buttonheader {
+  color: white;
+  width: 120px;
+  height: 30px;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titlepicture {
+  position: relative;
+  bottom: 350px;
+  right: 193px;
+}
+
+.tp p::before {
+  content: "";
+  background: green;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  display: block;
+}
+
+.titlepicture p {
+  color: white;
+  font-family: "mulish";
+}
+
+.johndoe {
+  margin-right: 5px;
+}
+
+.johndoe p {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+h2 {
+  position: relative;
+  left: 50px;
+  position: relative;
+  left: -2px;
+  margin: auto;
+}
+/*# sourceMappingURL=Photo.css.map */

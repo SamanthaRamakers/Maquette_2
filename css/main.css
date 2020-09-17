@@ -4,8 +4,11 @@
 }
 
 .header {
-  margin: auto;
   max-width: 1200px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .grid-3 {
@@ -16,7 +19,6 @@
 
 .icons {
   display: flex;
-  padding-left: 50px;
   align-items: center;
   align-content: space-between;
 }
@@ -70,8 +72,106 @@
   margin-right: 8px;
 }
 
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.sidebar {
+  max-width: 332px;
+  margin-top: 65px;
+}
+
+.postside::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: red;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.postside {
+  font-size: 20px;
+  font-color: white;
+  color: white;
+  font-family: "Playfair Display";
+  margin-bottom: 10px;
+}
+
+.posts {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.posts .contentpost {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.contentpost .textside {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.picpost {
+  width: 50%;
+  height: 50%;
+}
+
+.palmside {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.socialmedia {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.cbackground {
+  width: 100%;
+  height: 50px;
+  background-color: #54d6e2ab;
+}
+
+.contentcat {
+  display: flex;
+}
+
+.contentcat p {
+  margin: 10px;
+  margin-left: 0px;
+  color: white;
+  font-family: "mulish";
+}
+
+.adpic {
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.catcontainer {
+  margin-bottom: 70px;
+}
+
+.contentpic {
+  left: 20px;
+  position: relative;
+}
+
 .picture {
-  width: 1600px;
+  width: 2000px;
   height: 480px;
   object-fit: cover;
 }
@@ -79,10 +179,8 @@
   object-fit: cover;
   width: 1600px;
   height: 480px;
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-left: 100px;
-  margin: auto;
+  margin-right: 150px;
+  margin-left: 100px;
 }
 
 .johndoe {
@@ -91,20 +189,13 @@
   border-radius: 100%;
 }
 
-h2 {
+.picture h2 {
   padding-left: 50px;
   padding-top: -200px;
   display: flex;
   justify-content: center;
-  margin-top: -300px;
   color: white;
   font-family: "Playfair Display";
-}
-
-.line {
-  width: 90%;
-  height: 1px;
-  background-color: white;
 }
 
 .jd {
@@ -122,6 +213,9 @@ h2 {
 .buttoncontainer {
   display: flex;
   justify-content: center;
+  position: relative;
+  right: -18px;
+  top: 20px;
 }
 .buttoncontainer #buttonheader {
   color: white;
@@ -132,191 +226,105 @@ h2 {
   justify-content: center;
 }
 
-.footercontent {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  bottom: 50px;
-  clear: both;
+.titlepicture {
+  position: relative;
+  bottom: 350px;
+  right: 193px;
 }
 
-.footer {
-  margin: auto;
-  width: 1200px;
-  clear: both;
-}
-
-.icon {
-  display: flex;
-  padding-top: 13px;
-  padding-left: 5px;
-  bottom: 0;
-  right: 0;
-}
-.icon img {
-  width: 20px;
-}
-.icon p {
-  padding: top 8px;
-}
-
-.linefinal {
-  widows: 90%;
-  height: 1px;
-  background-color: white;
-  width: 1200px;
-  margin: auto;
-}
-
-.backtop {
-  display: flex;
-  bottom: 0;
-  right: 0;
-  padding-right: 8px;
-  float: right;
-}
-.backtop p {
-  padding-top: 21px;
-}
-.backtop img {
-  width: 20px;
-  padding-top: 14px;
-  height: 20px;
-  padding-top: 35px;
-  padding-left: 6px;
-}
-
-.banner {
-  width: auto;
-  height: 20px;
-  color: #362953;
-}
-
-.footergrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-h3 {
-  padding-right: 138px;
-  margin-bottom: -10px;
-}
-
-.newsletter {
-  margin-bottom: 50px;
-}
-
-.button {
-  width: 150px;
-}
-
-.lineblock {
-  margin: 25px;
-  padding-left: 50px;
-  width: 80px;
-  height: 2px;
-  background-color: red;
-  float: right;
-  margin-top: -5px;
-}
-
-.lineb {
-  margin: 25px;
-  margin-top: -5px;
-  width: 80px;
-  height: 2px;
-  background-color: red;
-  float: right;
-  display: flex;
-  bottom: 0;
-  right: 0;
-  padding-right: 8px;
-  float: right;
-  display: flex;
-}
-
-.sidebar {
-  float: right;
-  padding-top: 150px;
-}
-
-.linesb {
-  margin: 25px;
-  margin-top: 30px;
-  padding-left: 50px;
-  width: 80px;
-  height: 2px;
-  background-color: red;
-}
-
-.pictureb {
-  display: grid;
-  grid-area: 1/2;
-}
-
-img {
-  object-fit: cover;
-}
-
-.firstimg {
+.tp p::before {
+  content: "";
+  background: green;
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
   display: block;
-  width: 150px;
-  height: 150px;
-  float: left;
 }
 
-.textb {
-  display: grid;
-  grid-area: 1/2;
+.titlepicture p {
+  color: white;
+  font-family: "mulish";
 }
 
-.picturec {
-  display: grid;
-  grid-area: 2/1;
-  width: 150px;
-  height: 150px;
+.johndoe {
+  margin-right: 5px;
+}
+.johndoe p {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
-.linec {
-  margin: 25px;
-  margin-top: 30px;
-  padding-left: 50px;
-  width: 80px;
-  height: 2px;
-  background-color: red;
+h2 {
+  position: relative;
+  left: 50px;
+  position: relative;
+  left: -2px;
+  margin: auto;
 }
 
-h4 {
-  display: grid;
-  grid-area: 1/2;
-}
-
-.scimg {
-  display: grid;
-  width: 150px;
-  height: 150px;
-  grid-area: 2/1;
-  object-fit: cover;
-}
-
-.thimg {
-  display: grid;
-  width: 150px;
-  height: 150px;
-  grid-area: 3/1;
-  object-fit: cover;
-}
-
-.banner {
-  width: auto;
-  height: 20px;
-  color: #362953;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #33264E;
+  background: #33264E;
+  font-family: font(text);
+  display: grid;
+  place-items: center;
+  max-width: 1200px;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  right: 350px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.leftcontainer {
+  max-width: 800px;
+  margin: 60px;
+}
+
+.picture img {
+  width: 100px;
+  height: 100px;
+}
+
+.pict {
+  width: 158%;
+  height: 300px;
+}
+
+.palmtree {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textpict {
+  margin-left: 20px;
+  padding: 20px 20px;
+}
+
+.jdarticle {
+  display: flex;
+}
+
+.firstarticle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #362953;
+  margin-bottom: 20px;
+}
+
+.textpict p {
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

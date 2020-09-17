@@ -1,0 +1,99 @@
+.sidebar {
+  max-width: 332px;
+  margin-top: 65px;
+}
+
+.postside::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: red;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-left: 10px;
+}
+
+.postside {
+  font-size: 20px;
+  font-color: white;
+  color: white;
+  font-family: "Playfair Display";
+  margin-bottom: 10px;
+}
+
+.posts {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.posts .contentpost {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contentpost .textside {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.picpost {
+  width: 50%;
+  height: 50%;
+}
+
+.palmside {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.socialmedia {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cbackground {
+  width: 100%;
+  height: 50px;
+  background-color: #54d6e2ab;
+}
+
+.contentcat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contentcat p {
+  margin: 10px;
+  margin-left: 0px;
+  color: white;
+  font-family: "mulish";
+}
+
+.adpic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.catcontainer {
+  margin-bottom: 70px;
+}
+
+.contentpic {
+  left: 20px;
+  position: relative;
+}
+/*# sourceMappingURL=sidebar.css.map */

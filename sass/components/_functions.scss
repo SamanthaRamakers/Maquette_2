@@ -1,0 +1,12 @@
+@function color($color-name){
+  @return map-get($colors, $color-name)
+};
+@function value($value-name){
+  @return map-get($values, $value-name)
+};
+@function fonts($font-name){
+  @return map-get($fonts-family,$font-name)
+};
+@function social-media($social-color){
+  @return map-get($social-media,$social-color),
+};
