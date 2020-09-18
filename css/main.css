@@ -276,6 +276,11 @@
   border-radius: 100%;
 }
 
+.jd p {
+  margin-top: 29px;
+  padding-right: 5px;
+}
+
 .picture h2 {
   padding-left: 50px;
   padding-top: -200px;
