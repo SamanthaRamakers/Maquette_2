@@ -17,6 +17,7 @@ color: #33264E;
   display: flex;
   align-items: center;
   align-content: space-between;
+  margin-left: 55px;
   a{
     color: white;
     background-color: pink;
@@ -28,6 +29,9 @@ color: #33264E;
     border-radius: 20px;
     padding-bottom:5px ;
   }
+}
+.icons img{
+  padding-right: 5px;
 }
 .fa fa-facebook{
   padding-left:60px;

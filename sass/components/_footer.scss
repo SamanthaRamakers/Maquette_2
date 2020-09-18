@@ -16,7 +16,7 @@
 .backgfootpink{
   height: 50px;
   width: 300px;
-  background-color: pink;
+  background-color: #f56b83;
   display: flex;
   justify-content: center;
   display: flex;
@@ -27,7 +27,13 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    margin-right: 100px;
+    font-family: mulish;
+    color: white;
   }
+}
+.svg img{
+  margin-top: 15px;
 }
 .secgridfooter{
   margin-left: 50PX;
@@ -37,4 +43,30 @@
 }
 .followus{
   background-color: #3d2e5d8f;
+  padding: 20px 20px;
+}
+.fb{
+  position: relative;
+  left: 150px;
+}
+.inst{
+  position: relative;
+  left: 150px;
+}
+.tf{
+  margin: 20px 20px 20px 10px;
+}
+.tw::after{
+  content: '*';
+  color: white;
+  display: inline-block;
+}
+.pi{
+  margin: 40px 20px 30px 10px;
+}
+.secgridfooter{
+  p{
+    color: white;
+    font-family:"mulish";
+  }
 }
