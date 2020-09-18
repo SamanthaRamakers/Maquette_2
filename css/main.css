@@ -12,16 +12,25 @@
 }
 
 .grid-3 {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
 }
 
 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
 }
+
 .icons a {
   color: white;
   background-color: pink;
@@ -45,6 +54,8 @@
 }
 
 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
   color: white;
@@ -54,20 +65,32 @@
 }
 
 .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
   grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2/3;
   margin: 10px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-decoration: underline;
 }
+
 .sections a {
   text-decoration: none;
   color: white;
   margin: 0 0 0 8px;
   font-family: "mulish";
 }
+
 .sections a:last-child {
   margin-right: 8px;
 }
@@ -77,6 +100,63 @@
   height: 1px;
   background-color: white;
   margin: 0 auto;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr 2fr;
+      grid-template-columns: 2fr 3fr 2fr;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  right: 291px;
+}
+
+.footer {
+  max-width: 1200px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.backgfootpink {
+  height: 50px;
+  width: 300px;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.backgfootpink .emailcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.secgridfooter {
+  margin-left: 50PX;
+}
+
+.secgridfooter .postside {
+  margin-top: 40px;
+}
+
+.followus {
+  background-color: #3d2e5d8f;
 }
 
 .sidebar {
@@ -111,6 +191,8 @@
   width: 100%;
   margin-bottom: 5px;
   margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -127,13 +209,16 @@
 .palmside {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .socialmedia {
   width: 100%;
   height: 20%;
   margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -144,6 +229,8 @@
 }
 
 .contentcat {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -155,7 +242,8 @@
 }
 
 .adpic {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 200px;
   height: 300px;
   object-fit: cover;
@@ -173,10 +261,13 @@
 .picture {
   width: 2000px;
   height: 480px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .picture #picture {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 1600px;
   height: 480px;
   margin-right: 150px;
@@ -192,17 +283,26 @@
 .picture h2 {
   padding-left: 50px;
   padding-top: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
   font-family: "Playfair Display";
 }
 
 .jd {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
 }
+
 .jd .triangle {
   width: 10px;
   background-color: pink;
@@ -211,19 +311,28 @@
 }
 
 .buttoncontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   right: -18px;
   top: 20px;
 }
+
 .buttoncontainer #buttonheader {
   color: white;
   width: 120px;
   height: 30px;
   background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .titlepicture {
@@ -249,6 +358,7 @@
 .johndoe {
   margin-right: 5px;
 }
+
 .johndoe p {
   margin-right: 5px;
   margin-left: 5px;
@@ -265,12 +375,14 @@ h2 {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background: #33264E;
   font-family: font(text);
+  display: -ms-grid;
   display: grid;
   place-items: center;
   max-width: 1200px;
@@ -280,6 +392,8 @@ body {
   position: relative;
   max-width: 1200px;
   right: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   margin-top: 20px;
@@ -303,7 +417,8 @@ body {
 .palmtree {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .textpict {
@@ -312,13 +427,19 @@ body {
 }
 
 .jdarticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .firstarticle {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #362953;
   margin-bottom: 20px;
 }
@@ -326,5 +447,4 @@ body {
 .textpict p {
   margin-bottom: 20px;
 }
-
 /*# sourceMappingURL=main.css.map */

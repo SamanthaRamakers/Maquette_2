@@ -1,0 +1,40 @@
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  width: 100%;
+  height: 200px;
+  position: relative;
+    right: 291px;
+}
+.footer{
+  max-width: 1200px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.backgfootpink{
+  height: 50px;
+  width: 300px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 50px;
+  .emailcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+.secgridfooter{
+  margin-left: 50PX;
+  .postside{
+    margin-top: 40px;
+  }
+}
+.followus{
+  background-color: #3d2e5d8f;
+}
